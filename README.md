@@ -331,6 +331,11 @@ viewModel.recipesUpdated.observe(this, Observer { updated ->
 })
 ```
 
+```kotlin
+//inside addNewRecipe
+_recipesUpdated.value = true
+```
+
 ## 9. Decorating RecyclerView
 
 ### 9.1 Add divider between items
